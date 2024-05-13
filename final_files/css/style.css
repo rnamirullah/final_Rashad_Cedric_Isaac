@@ -1,0 +1,90 @@
+/* standard elements */
+html {
+    background-color: black;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Courier New, monospace;
+    font-size: 100%;
+    color: white;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: FreeMono, monospace;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: lightgreen;
+    font-family: FreeMono, monospace;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    margin-top: 4rem;
+    border-top: 0.1rem solid slategrey;
+    font-size: 0.8rem;
+}
+.citation {
+    margin-left: 0.75em;
+    font-size: 80%;
+    font-style: italic;
+}
+img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+section, p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+nav {
+    background-color: #beedbe;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li:hover {
+    background-color: darkgreen;
+  }
+
+nav li {
+    font-family: Verdana, Helvetica, sans-serif;
+    color: black;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    font-weight: bolder;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
